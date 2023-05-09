@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Favicon.jpg">
+    <link rel="stylesheet" href="Main.css">
+    <title>Registration Page</title>
+</head>
+
+<body>
+        <table class="container">
+            <caption><img src="Image.jpg" alt="Registration Page"></caption>
+            <form>
+                <tr>
+                    <th colspan="2" style="font-size: larger;">Registration Form</th>
+                </tr>
+                <tr>
+                    <th colspan="2">&nbsp;</th>
+                </tr>
+                <tr>
+                    <td><label for="fname">Name: </label></td>
+                    <td><input class="box" type="name" id="fname" name="fname" required placeholder="Enter Full Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="father">Father's Name: </label></td>
+                    <td><input class="box" type="text" name="father" id="father" placeholder="Enter Father's Name" required></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td><label for="indate">Date: </label></td>
+                    <td><input class="box" type="date" name="indate" id="indate" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email ID: </label></td>
+                    <td><input class="box" type="text" name="email" id="email" placeholder="Enter Email ID" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone No.: </label></td>
+                    <td><input class="box" type="text" id="phone" name="phone" placeholder="Enter Phone No." required></td>
+                </tr>
+                <tr>
+                    <td rowspan="3" valign="top"><label for="gender">Gender: </label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">Male</label><br>
+                    </td>
+                <tr>
+                    <td><input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label><br>
+                    </td>
+                <tr>
+                    <td><input type="radio" id="other" name="gender" value="Others">
+                        <label for="other">Prefer Not to Say</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="year">Year: </lable>
+                    </td>
+                    <td>
+                        <select class="box-1" id="year" name="year" placeholder="Select Year" required>
+                            <option value="Select Year">Select Year</option>
+                            <option value="1st">1st Year</option>
+                            <option value="2nd">2nd Year</option>
+                            <option value="3rd">3rd Year</option>
+                            <option value="4th">4th Year</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" rowspan="3"><label id="language">Languages: </label></td>
+                    <td>
+                        <input type="checkbox" name="language" id="english" value="English" />
+                        <label for="english"> English </label>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="language" id="hindi" value="Hindi" />
+                        <label for="hindi"> Hindi </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="language" id="punjabi" value="Punjabi" />
+                        <label for="Punjabi"> Punjabi </label>
+                    </td>
+                    </td>
+                </tr>
+                <tr>
+                <td><label for="pic">Profile pic:</label></td>
+                <td><input type="file" id="pic" required /></td>
+            </tr>
+                <tr>
+                    <td><label for="yourself" dir="ltr" spellcheck="true">Address:</label></td>
+                    <td><textarea class="box" col="6" row="3" required placeholder="Enter Address"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password: </label></td>
+                    <td><input class="box" type="password" name="pass" id="pass" required placeholder="Enter Password"></td>
+                </tr>
+                <tr>
+                    <th colspan="2">&nbsp;</th>
+                </tr>
+                <tr>
+                    <td style="text-align: center;" colspan="2"><input class="button" type="submit" value="Register"/></td>
+                </tr>
+            </form>
+        </table>
+</body>
+
+</html>
